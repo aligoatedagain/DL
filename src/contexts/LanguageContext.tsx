@@ -45,7 +45,7 @@ const translations = {
   },
   zh: {
     // Header
-    'header.title': '优雅之花',
+    'header.title': '东莞卓洋服饰有限公司',
     'header.subtitle': '女装褶皱时装',
     'header.home': '首页',
     'header.products': '产品',
