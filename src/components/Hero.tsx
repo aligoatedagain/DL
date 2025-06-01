@@ -1,10 +1,6 @@
-
-
-// export default Hero;
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Star } from 'lucide-react';
-import main from '../assests/main.avif';
-
+import main from '../assests/mainone.avif';
 
 const Hero = () => {
   return (
@@ -18,21 +14,21 @@ const Hero = () => {
                   <Star key={i} className="w-5 h-5 fill-accent text-accent" />
                 ))}
               </div>
-              <span className="text-sm text-gray-500 font-arabic">شركة تصنيع موثوقة ومعتمدة</span>
+              <span className="text-sm text-gray-500 font-arabic">شركة تصنيع أزياء مميزة ومعتمدة</span>
             </div>
 
             <h2 className="text-4xl md:text-6xl font-bold text-primary mb-6 font-arabic leading-tight">
-              ملابس نسائية مطوية بجودة عالية
+              أزياء تنكرية وملابس ثقافية عالية الجودة
               <br />
-              <span className="text-accent">مع أكثر من 200 تصميم يوميًا</span>
+              <span className="text-accent">من الهالوين إلى الملابس الإسلامية والإفريقية</span>
             </h2>
 
             <p className="text-lg text-gray-600 mb-4 font-arabic leading-relaxed">
-              نحن Zhuoyang Apparel – مصنع متخصص في تصميم وإنتاج الملابس النسائية المطوية مع سلسلة تصنيع متكاملة: من الرسم الأولي إلى الإنتاج الكامل.
+              نحن Hongbo Mingchuang – شركة متخصصة في تصنيع ملابس الهالوين، الزينتاي، الأزياء الإسلامية، والملابس الثقافية بأسلوب احترافي وابتكاري.
             </p>
 
             <p className="text-lg text-gray-600 mb-8 font-arabic leading-relaxed">
-              فريقنا يطلق أكثر من <strong>200 تصميم جديد يوميًا</strong>، ونوفر خدمات التخصيص والدروبشيبينغ. نضمن لك شحن سريع، جودة عالية، وفحص دقيق في كل خطوة.
+              نوفر خدمة التصميم المخصص، إنتاج ضخم، ودعم الشحن العالمي لجميع الأسواق. منتجاتنا تحظى بثقة عملائنا في أكثر من 50 دولة.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-end">
@@ -47,16 +43,16 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">8 مراحل</div>
-                <div className="text-sm text-gray-500 font-arabic">عملية الإنتاج الدقيقة</div>
+                <div className="text-2xl font-bold text-primary">4+ سنوات</div>
+                <div className="text-sm text-gray-500 font-arabic">من الخبرة في الأزياء الخاصة</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">200+</div>
-                <div className="text-sm text-gray-500 font-arabic">تصميم يوميًا</div>
+                <div className="text-2xl font-bold text-primary">50+ دولة</div>
+                <div className="text-sm text-gray-500 font-arabic">نغطي الأسواق العالمية</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">100%</div>
-                <div className="text-sm text-gray-500 font-arabic">جودة وفحص شامل</div>
+                <div className="text-2xl font-bold text-primary">دروبشيبينغ</div>
+                <div className="text-sm text-gray-500 font-arabic">متوفر وخدمة تخصيص</div>
               </div>
             </div>
           </div>
@@ -64,16 +60,10 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-accent/10 to-primary/5 rounded-3xl transform rotate-6"></div>
             <div className="relative bg-white rounded-3xl p-8 shadow-2xl border border-gray-100">
-              {/* <img 
-                src="../assests/main.avif"
-                alt="أزياء نسائية مطوية"
-                className="w-full h-96 object-cover rounded-2xl"
-              /> */}
-              {main && <img src={main} alt="main
-              " />}
+              {main && <img src={main} alt="أزياء تنكرية وعالمية" />}
               <div className="absolute -bottom-4 -right-4 bg-accent text-white p-4 rounded-xl shadow-lg">
-                <div className="text-sm font-arabic font-medium">دعم التخصيص والدروبشيبينغ</div>
-                <div className="text-xs opacity-90">جاهزون للشحن العالمي</div>
+                <div className="text-sm font-arabic font-medium">متخصصون في الهالوين والتخصيص</div>
+                <div className="text-xs opacity-90">جاهزون لتصدير عالمي</div>
               </div>
             </div>
           </div>

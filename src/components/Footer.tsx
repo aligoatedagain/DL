@@ -1,17 +1,16 @@
-
 // export default Footer;
 import { Globe, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white">
+    <footer className="bg-primary text-white" dir="rtl">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 font-arabic">زهرة الأناقة</h3>
+            <h3 className="text-2xl font-bold mb-4 font-arabic">هونغبو مينغ تشوانغ</h3>
             <p className="text-white/80 mb-4 font-arabic leading-relaxed">
-              علامة تجارية صينية رائدة في مجال الأزياء النسائية المطوية، 
-              نقدم لكم أرقى التصاميم بجودة عالمية وأسعار تنافسية.
+              مصنع متخصص في الأزياء التنكرية وملابس الزينتاي والملابس الأفريقية والإسلامية. 
+              نقدم خدمات مخصصة وتصدير عالي الجودة للأسواق العالمية.
             </p>
             <div className="flex gap-4">
               <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors cursor-pointer">
@@ -25,55 +24,55 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-bold mb-4 font-arabic">منتجاتنا</h4>
             <ul className="space-y-2 text-white/80">
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">فساتين مطوية</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">بدلات نسائية</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">قمصان أنيقة</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">إكسسوارات</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">ملابس تنكرية</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">بدلات زينتاي</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">ملابس إسلامية</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">ملابس أفريقية</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-bold mb-4 font-arabic">خدماتنا</h4>
             <ul className="space-y-2 text-white/80">
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">تخصيص المنتجات</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">طلبات بالجملة</a></li>
               <li><a href="#" className="hover:text-accent transition-colors font-arabic">تصميم حسب الطلب</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">عينات مجانية</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">شحن دولي</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors font-arabic">ضمان الجودة</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors font-arabic">شحن دولي سريع</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-bold mb-4 font-arabic">تواصل معنا</h4>
             <div className="space-y-3 text-white/80">
-            <div className="flex items-center gap-3">
-              <Phone className="w-4 h-4" />
-              <span dir="ltr" className="font-arabic">+86 137 2847 5958</span>
-            </div>
-
+              <div className="flex items-center gap-3">
+                <Phone className="w-4 h-4" />
+              </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4" />
-                <span>zhuoyangcompany@gmail.com</span>
+                <span>hongbo.factory@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4" />
-                <span className="font-arabic">غرفة 401، رقم 30، طريق تشن شينغ، بلدة هومين، دونغقوان، قوانغدونغ، الصين</span>
+                <span className="font-arabic">
+                  مدينة ووهان، الصين – منطقة تطوير التكنولوجيا، شارع نانكو
+                </span>
               </div>
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-white/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/60 text-sm font-arabic">
-             © 2025  جميع الحقوق محفوظه
+              © 2025 هونغبو مينغ تشوانغ – جميع الحقوق محفوظة
             </p>
             <div className="flex items-center gap-4">
               <a 
-                href="https://1688zhuoyang.en.alibaba.com/" 
+                href="https://hongbomingchuang.en.alibaba.com/productgrouplist-941587464/Muslim_Clothing.html?spm=a2700.shop_index.227.4.2f31491eeC1y8j" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-accent hover:bg-accent/90 text-white px-6 py-2 rounded-lg font-arabic text-sm transition-colors"

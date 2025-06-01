@@ -18,11 +18,11 @@ const Header = () => {
                 style={{ unicodeBidi: 'embed' }}
               >
                 <Phone className="w-4 h-4" />
-                <span>+86 138 0571 8899</span>
+                {/* <span>+86 138 0571 8899</span> */}
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>zhuoyangcompany@gmail.com</span>
+                <span>hongbo.factory@gmail.com</span>
               </div>
             </div>
             {/* <span className="text-xs font-arabic">{t('header.freeShipping')}</span> */}
@@ -44,8 +44,8 @@ const Header = () => {
           </div>
           
           <div className="text-center">
-            <h1 className="text-2xl md:text-3xl font-bold text-primary font-arabic">{t('header.title')}</h1>
-            <p className="text-sm text-gray-500 font-arabic">{t('header.subtitle')}</p>
+            <h1 className="text-2xl md:text-3xl font-bold text-primary font-arabic">هونغبو مينغ تشوانغ</h1>
+            <p className="text-sm text-gray-500 font-arabic"> لازياء  تنكرية وملابس ثقافية عالية الجودة</p>
           </div>
           
           <div className="flex items-center gap-4">

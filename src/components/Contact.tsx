@@ -1,19 +1,17 @@
-
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-gray-50" dir="rtl">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 font-arabic">
             تواصل معنا
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-arabic">
-            نحن هنا لخدمتك! تواصل معنا اليوم لمناقشة احتياجاتك أو طلب عينات مجانية
+            نحن هنا لخدمتك! تواصل معنا اليوم لمناقشة طلبك أو الحصول على كتالوج مخصص.
           </p>
         </div>
 
@@ -31,7 +29,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-primary font-arabic">هاتف</h4>
-                    <p className="text-gray-600" dir="ltr">+86 137 2847 5958</p>
+                    <p className="text-gray-600" dir="ltr">+86 +++ ++++ ++++</p>
                   </div>
                 </CardContent>
               </Card>
@@ -43,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-primary font-arabic">بريد إلكتروني</h4>
-                    <p className="text-gray-600" dir="ltr">zhuoyangcompany@gmail.com</p>
+                    <p className="text-gray-600" dir="ltr">hongbo.factory@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -56,7 +54,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-bold text-primary font-arabic">العنوان</h4>
                     <p className="text-gray-600 font-arabic">
-                      غرفة 401، رقم 30، طريق تشينشينغ، مدينة هو من، دونغقوان، قوانغدونغ، الصين
+                      ووهان، الصين – منطقة نانكو، طريق شينغفا، رقم 88، مبنى A، الطابق 3
                     </p>
                   </div>
                 </CardContent>
@@ -69,8 +67,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-primary font-arabic">ساعات العمل</h4>
-                    <p className="text-gray-600 font-arabic">الإثنين - الجمعة: 8:30 - 17:30</p>
-                    <p className="text-gray-600 font-arabic">السبت: 9:00 - 12:00</p>
+                    <p className="text-gray-600 font-arabic">الإثنين - الجمعة: 9:00 - 18:00</p>
+                    <p className="text-gray-600 font-arabic">السبت: 10:00 - 13:00</p>
                   </div>
                 </CardContent>
               </Card>
@@ -81,7 +79,7 @@ const Contact = () => {
             <Card>
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-primary mb-6 font-arabic">
-                  احصل على عرض سعر
+                  اطلب عرض أسعار
                 </h3>
                 <form className="space-y-6">
                   <div>
@@ -119,25 +117,25 @@ const Contact = () => {
                   
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2 font-arabic">
-                      المنتجات المطلوبة
+                      نوع المنتجات
                     </label>
                     <select className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent">
                       <option>اختر المنتج</option>
-                      <option>فساتين مطوية</option>
-                      <option>بدلات نسائية</option>
-                      <option>قمصان مطوية</option>
+                      <option>ملابس تنكرية</option>
+                      <option>بدلات زينتاي</option>
+                      <option>ملابس إسلامية</option>
                       <option>جميع المنتجات</option>
                     </select>
                   </div>
                   
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2 font-arabic">
-                      رسالتك
+                      تفاصيل الطلب
                     </label>
                     <textarea 
                       rows={4}
                       className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent"
-                      placeholder="أخبرنا عن احتياجاتك..."
+                      placeholder="أخبرنا بالمقاسات أو الكمية أو أي متطلبات خاصة..."
                     ></textarea>
                   </div>
                   
